@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+# StockRestApp
 
-You can use the [editor on GitHub](https://github.com/SahooDhirendra/StockRestApp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+REST APIs for CRUD operations
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting Started
 
-### Markdown
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Prerequisites
 
-```markdown
-Syntax highlighted code block
+Install JDK 1.8 
 
-# Header 1
-## Header 2
-### Header 3
+### Installing
 
-- Bulleted
-- List
+set PATH="C:\Program Files\Java\jdk1.8.0_144\bin";%PATH%
+set JAVA_HOME="C:\Program Files\Java\jdk1.8.0_144\bin"
 
-1. Numbered
-2. List
+### Install Git
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Download the latest version of 64-bit [Git](https://git-scm.com/download/win)
+1. Run the installer.
+1. Check installation: 
 ```
+C:\> git --version
+git version 2.14.2.windows.3
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Install the project
 
-### Jekyll Themes
+Clone Project from Github.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SahooDhirendra/StockRestApp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Install Maven
 
-### Support or Contact
+Install [latest Maven](https://maven.apache.org/download.cgi).  After the installation is complete, set up an environment variable called M2_HOME that points to your Maven installation directory.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Add the bin directory under M2_HOME to the PATH.
+
+Open **cmd** then run the commands below to update your installation path.
+
+```
+set PATH="<Your maven installation path>\bin";%PATH%
+set M2_HOME="<Your maven installation path>" 
+```
+Run `mvn --version` to verify that it is correctly installed.
+
+### Install Eclipse
+
+### Check-out code from github
+ 
+## Running the Project
+
+Create a maven project and import the project to your workspace.
+
+### And coding style tests
+
+FindBug, CheckStyle and PMD has been used to validate coding standard.
+
+## Built With
+
+* SpringBoot is used to build this peoject
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Authors
+
+* **Dhirendra Sahoo** - *Initial work* - [StockRestApp](https://github.com/SahooDhirendra/StockRestApp.git)
+
